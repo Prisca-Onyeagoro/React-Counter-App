@@ -1,0 +1,42 @@
+h1,
+p {
+  font-family: Lato;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: 6rem;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+.buttons button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: yellowgreen;
+  margin-top: 3rem;
+}
+.positive {
+  color: green;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.negative {
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+}
